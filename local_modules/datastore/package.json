@@ -1,0 +1,12 @@
+{
+    "name": "datastore",
+    "version": "0.0.1",
+    "private": true,
+    "main": "datastore.js",
+    "dependencies": {
+        "logger": "file:../logger",
+        "config": "^1.26.1",
+        "nedb": "^1.8.0"
+    },
+    "devDependencies": {}
+}

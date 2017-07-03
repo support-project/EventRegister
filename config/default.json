@@ -1,0 +1,51 @@
+{
+  "app": {
+    "cron": "00 * * * * *",
+    "datastore": "data/database.db",
+    "ical_directory": "sample/",
+    "ignore_title_regexp": "除外文字列1|除外文字列2",
+    "knowledge_url": "https://test-knowledge.support-project.org", // ex) http://localhost:8080/knowledge
+    "knowledge_token": "JNTyDTxsAsaqoocmaC2BZEXw4piMMpTRKPWK2K1IpRu9e1yRwkZlhDmkc8wEJxdb",
+    "knowledge_event_label": {
+      "date": "Date",
+      "start": "Start",
+      "end": "End",
+      "timezone": "Timezone",
+      "numberCount": "The number to be accepted",
+      "location": "Place"
+    },
+    "period_days": 30,
+    "description_plefix": "※ 本イベントは、イベント開催カレンダーから自動登録されました。\n気になったかたは、イベント開催カレンダーをチェックしてください。\nなお、参加方法などは、イベントの主催者にお問い合わせください。\n（参加登録ボタンを押しても、参加が確定されるわけではないのでご注意ください）\n\n----\n",
+    "body_template": {
+      "tags": [
+        "EventCalendar"
+      ],
+      "publicFlag": 0,
+      "editors": {
+        "groups": [],
+        "users": []
+      },
+      "viewers": {
+        "groups": [],
+        "users": []
+      }
+    }
+  },
+  "log4js": {
+    "configure": {
+      "appenders": [
+        {
+          "category": "app",
+          "type": "console",
+          "level": "DEBUG"
+        },
+        {
+          "category": "sys",
+          "type": "console",
+          "level": "DEBUG"
+        }
+      ],
+      "replaceConsole": true
+    }
+  }
+}

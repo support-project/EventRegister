@@ -1,0 +1,12 @@
+{
+    "name": "logger",
+    "version": "0.0.1",
+    "private": true,
+    "main": "logger.js",
+    "dependencies": {
+        "config": "^1.26.1",
+        "log4js": "^1.1.1",
+        "callsite": "^1.0.0"
+    },
+    "devDependencies": {}
+}
