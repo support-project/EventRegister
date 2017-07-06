@@ -6,6 +6,7 @@
     "ignore_title_regexp": "除外文字列1|除外文字列2",
     "knowledge_url": "https://test-knowledge.support-project.org", // ex) http://localhost:8080/knowledge
     "knowledge_token": "JNTyDTxsAsaqoocmaC2BZEXw4piMMpTRKPWK2K1IpRu9e1yRwkZlhDmkc8wEJxdb",
+    "proxy": null, // ex) http://192.168.100.1:8080
     "knowledge_event_label": {
       "date": "Date",
       "start": "Start",
